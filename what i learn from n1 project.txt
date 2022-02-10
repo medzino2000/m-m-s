@@ -1,0 +1,9 @@
+1====> how to put linear grad on the text:
+  a==>put the linear gradient attribut :
+         background: linear-gradient(to right, #494964, #6f6f89);
+  b==>do this marvious step:
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+2====> how to put a shadow bellow a png img :
+  a==> by this fantastic attribut:
+         filter: drop-shadow(0px 5px 3px black);
